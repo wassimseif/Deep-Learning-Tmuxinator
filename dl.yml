@@ -1,0 +1,18 @@
+# ~/.tmuxinator/sample.yml
+# you can make as many tabs as you wish...
+
+name: deeplearning
+root:  ~/Desktop/Personal/Python/Machine-Learning/Shared-folder
+tmux_detached: false
+windows:
+  - main:
+      layout: tiled
+      panes:
+        -  main:
+            - source activate deeplearning
+            - jupyter notebook
+        - 
+        -
+        - top
+        - top
+  - shell:
