@@ -13,6 +13,6 @@ windows:
             - jupyter notebook
         - 
         -
-        - top
-        - top
+        - 
+        - htop
   - shell:
